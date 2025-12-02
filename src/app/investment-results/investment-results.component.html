@@ -10,7 +10,7 @@
     <th>Invested Capital</th>
   </thead>
   <tbody>
-    @for (item of results; track $index) {
+    @for (item of results(); track $index) {
     <tr>
       <td>
         {{ item.year }}
